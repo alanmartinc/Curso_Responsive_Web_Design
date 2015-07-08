@@ -1,0 +1,1 @@
+$(document).ready(function(){alert("funciona");var n="funciona igual";console.log(n)});

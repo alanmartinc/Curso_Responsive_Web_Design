@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2>Estamos dentro de los 500px?</h2>
+	<div class="si">
+		SI
+	</div>
+	
+	<div class="no">
+		NO
+	</div>
+	
+	
+	<style type="text/css">
+h2 {
+	color: black;
+	font-size: 28px;
+	text-align: center;
+}
+div {
+	height: 300px;
+	width:100%;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+}
+.si {
+	display: none;
+	background-color: green;
+}		
+.no {
+	display: block;
+ 	background-color: red;
+}
+		
+@media screen and (max-width: 500px) {
+
+     .si {
+          display: block;
+     }
+     .no {
+          display: none;
+     }
+}
+
+	</style>
+</body>
+</html>
